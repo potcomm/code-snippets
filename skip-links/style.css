@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 480px) {
+    .skip-link {
+        display: block; /* Makes it a visible block element on phones */
+        position: static; /* Puts it normally into your page layout flow */
+        background: #f0f0f0; 
+        color: #333333;
+        font-size: 0.85em;
+        text-align: center;
+        padding: 6px;
+        border-bottom: 1px solid #cccccc;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .skip-link {
+        display: none; /* Hides it completely on tablets and desktops where space isn't an issue */
+    }
+}
