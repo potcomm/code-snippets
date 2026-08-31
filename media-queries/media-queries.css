@@ -1,0 +1,34 @@
+/* --- Mobile-First CSS Media Queries --- */
+
+/* --- Base Styles (Mobile First) --- */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 15px;
+  background-color: #ffffff;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+}
+
+/* --- Tablet Styles (Screens 768px and wider) --- */
+@media (min-width: 768px) {
+  body {
+    padding: 30px;
+  }
+  #container {
+    width: 95%;        /* Takes up 95% of the screen on smaller tablets */
+    max-width: 750px;  /* Stops growing once it hits 750px */
+    margin: 0 auto;
+  }
+}
+
+/* --- Desktop Styles (Screens 1024px and wider) --- */
+@media (min-width: 1024px) {
+  #container {
+    width: 95%;        /* Stays flexible on smaller laptops */
+    max-width: 960px;  /* Stops growing once it hits 960px */
+  }
+}
