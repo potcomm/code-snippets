@@ -1,0 +1,34 @@
+/* ---  gallery --- */
+#gallery {
+    display: flex;
+    justify-content: center; 
+    background-color: #35492E; 
+}
+
+#gallery h3 {
+  font-size: 23px;
+  line-height: 30px;
+  color: white;
+}
+
+#gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 16px;
+    max-width: 1700px;       
+}
+
+.photos {
+    width: 320px;
+    flex: 0 0 320px;
+    text-align: center;      
+}
+
+.photos img {
+    width: 100%;
+    height: auto;           
+    aspect-ratio: auto;     
+    display: block;         
+}
