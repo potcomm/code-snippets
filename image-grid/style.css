@@ -1,0 +1,15 @@
+/* image-grid images */
+.image-grid {
+  display: flex;
+  justify-content: center; /* Centers the images on every row */
+  flex-wrap: wrap;         /* Allows images to wrap onto new lines when space runs out */
+  gap: 0;                  /* Guarantees no gaps between rows or columns */
+  width: 100%;
+}
+
+.image-grid img {
+  display: block;          /* Removes default browser white space underneath images */
+  width: 160px;            /* Replace with your exact native image width */
+  height: 128px;           /* Replace with your exact native image height */
+  object-fit: cover;       /* Optional: keeps images from distorting if sizes slightly vary */
+}
