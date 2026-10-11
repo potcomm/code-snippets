@@ -5,3 +5,4 @@ code snippets html and css
 3. [Simple-hamburger](https://github.com/potcomm/code-snippets/tree/main/simple-hamburger)
 4. [Skip-links](https://github.com/potcomm/code-snippets/tree/main/skip-links)
 5. [Image-grid](https://github.com/potcomm/code-snippets/tree/main/image-grid)
+6. [Gallery-photos](https://github.com/potcomm/code-snippets/tree/main/gallery-photos)
