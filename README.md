@@ -9,4 +9,4 @@ code snippets html and css
 7. [Meet-the-team](https://github.com/potcomm/code-snippets/tree/main/meet-the-team)
 8. [Activities](https://github.com/potcomm/code-snippets/tree/main/activities)
 9. [Link-buttons](https://github.com/potcomm/code-snippets/tree/main/link-buttons)
-10. [map-container](https://github.com/potcomm/code-snippets/tree/main/map-container)   
+10. [Map-container](https://github.com/potcomm/code-snippets/tree/main/map-container)   
