@@ -1,0 +1,19 @@
+/* --- link buttons  --- */
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Controls spacing between buttons vertically and horizontally */
+  margin-top: 55px;
+}
+
+.link-item {
+  width: 320px;
+  max-width: 100%; /* Ensures buttons scale down safely on small mobile screens */
+}
+
+.link-item img {
+  display: block;
+  width: 100%;
+  height: auto; /* Ensures images are responsive and don't distort */
+}
