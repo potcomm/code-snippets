@@ -1,0 +1,57 @@
+/* --- Meet the Team page --- */
+
+/* Layout Container: Enforces a maximum of 2 columns on desktop */
+.team-section-container {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important; /* Forces exactly 2 per row */
+  gap: 60px 40px;            /* Generous spacing between rows and columns */
+  max-width: 900px;          /* Stops the grid from getting too wide */
+  margin: 55px auto 0 auto;  /* Centers the entire grid on the page */
+  padding: 0 20px;
+}
+
+/* Individual Card Blocks */
+.team-profile-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important; /* Centers everything horizontally */
+  text-align: center !important;
+  width: 100% !important;
+}
+
+/* Image Wrappers & Larger Image Sizing */
+.team-image-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+.team-image-wrapper img {
+  width: 260px !important;       /* Made the photos larger as requested */
+  height: 260px !important;      /* Keeps the image a perfect square/circle */
+  object-fit: cover !important;
+  border: 4px solid #275882 !important;
+  display: block !important;
+}
+
+/* Clean Typography spacing without negative margins */
+.team-member-name {
+  margin: 0 0 10px 0 !important;
+  font-weight: bold !important;
+  font-size: 1.1rem !important;
+}
+
+.team-member-desc {
+  margin: 0 auto !important;
+  font-size: 20px !important;
+  line-height: 25px !important;
+  max-width: 340px !important; /* Keeps paragraph tidy under the larger photo */
+}
+
+/* Mobile Responsive Breakpoint: Switches to 1 column on small screens */
+@media (max-width: 767px) {
+  .team-section-container {
+    grid-template-columns: 1fr !important; /* Stacks 1-by-1 on mobile */
+  }
+}
