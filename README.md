@@ -6,5 +6,5 @@ code snippets html and css
 4. [Skip-links](https://github.com/potcomm/code-snippets/tree/main/skip-links)
 5. [Image-grid](https://github.com/potcomm/code-snippets/tree/main/image-grid)
 6. [Gallery-photos](https://github.com/potcomm/code-snippets/tree/main/gallery-photos)
-7. [Meet-the-team].(https://github.com/potcomm/code-snippets/tree/meet-the-team)
+7. [Meet-the-team].(https://github.com/potcomm/code-snippets/tree/main/meet-the-team).
 8. 
