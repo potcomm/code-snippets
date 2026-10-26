@@ -1,0 +1,51 @@
+/* --- Activity Card Styles --- */
+/* Base styles (Mobile First - Stacks vertically) */
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  padding: 10px 0;         /* Minimal padding since there is no white box background */
+  color: #275882;          /* Your dark blue text color */
+  font-size: 20px;
+  max-width: 800px;        
+  margin: 0 auto;          /* Centers the content block on the page */
+}
+
+.activity-image img {
+  width: 100%;
+  max-width: 320px; 
+  height: auto;
+  display: block;
+}
+
+.activity-text p {
+  margin: 0 0 15px 0; 
+  text-align: left;
+}
+
+/* Automatically adds your flat, crisp divider line between items */
+.activity-card:not(:last-child) {
+  border-bottom: 2px solid #275882; 
+  padding-bottom: 40px;            
+  margin-bottom: 40px;             
+}
+
+
+/* Desktop layout (Applies when screen is wider than 768px) */
+@media (min-width: 768px) {
+  .activity-card {
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 40px;             
+  }
+
+  .activity-image {
+    flex: 0 0 320px;       
+  }
+
+  .activity-text {
+    flex: 1;               
+    max-width: 450px;      
+  }
+}
+
